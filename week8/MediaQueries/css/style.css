@@ -1,0 +1,91 @@
+body {
+	font-family: Century Gothic, sans-serif;
+	background-color: lightblue;
+
+}
+
+#col1 {
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+#col3 {
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+
+#col2 {
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+
+@media only screen and (max-width: 600px) {
+
+	#col1 {
+		float:left;
+		width:100%;
+		overflow:hidden;
+	}
+	#col3 {
+		float:inline-block;
+		width:100%;
+		overflow:hidden;
+	}
+	
+	#col2 {
+		float:right;
+		width:100%;
+		overflow:hidden;
+	}
+
+}
+
+@media only screen and (min-width: 800px) {
+
+	#col1 {
+		float:left;
+		width:45%;
+		overflow:hidden;
+	}
+	#col2 {
+		float:right;
+		width:45%;
+		overflow:hidden;
+	}
+	
+	#col3 {
+		float:left;
+		width:45%;
+		overflow:hidden;
+	}
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+	
+	#col1 {
+		float:left;
+		width:33%;
+		margin: auto;
+	}
+	#col2 {
+		display: inline-block; 
+		width:33%;
+		margin: auto;
+	}
+	
+	#col3 {
+		float:right;
+		width:33%;
+		margin: auto;
+	}
+
+} 
+
+
+
